@@ -67,7 +67,7 @@ process 1225282
 ls -l /proc/1225282/fd/7
 lrwx------ 1 hfy5130 domain users 64 Jun  1 21:03 /proc/1225282/fd/7 -> /home/AFL/output/.cur_input
 ```
-We can see that `afl-fuzz` will use the contend in `.cur_input` as stdin!
+We can see that `afl-fuzz` will use the content in `.cur_input` as stdin!
 
 
 
